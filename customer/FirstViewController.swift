@@ -10,6 +10,10 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet weak var background: UIImageView!
+    @IBOutlet weak var searchBtn: UIButton!
+    
+    @IBOutlet weak var mainLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +24,11 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func searchPress(_ sender: Any) {
+        mainLabel.isHidden = false;
+        searchBtn.isHidden = true;
+        background.isHidden = false;
+    }
 
 }
 

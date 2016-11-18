@@ -15,6 +15,8 @@
 		0F97132A1DDDBC4000964E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F9713281DDDBC4000964E1E /* LaunchScreen.storyboard */; };
 		0F9713351DDDBC4000964E1E /* customerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9713341DDDBC4000964E1E /* customerTests.swift */; };
 		0F9713401DDDBC4000964E1E /* customerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F97133F1DDDBC4000964E1E /* customerUITests.swift */; };
+		0F97134E1DDDC57E00964E1E /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F97134D1DDDC57E00964E1E /* bg.png */; };
+		0F9713501DDDCF5400964E1E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F97134F1DDDCF5400964E1E /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0F97133B1DDDBC4000964E1E /* customerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F97133F1DDDBC4000964E1E /* customerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customerUITests.swift; sourceTree = "<group>"; };
 		0F9713411DDDBC4000964E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F97134D1DDDC57E00964E1E /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		0F97134F1DDDCF5400964E1E /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = Assets.xcassets/data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +103,13 @@
 		0F97131C1DDDBC4000964E1E /* customer */ = {
 			isa = PBXGroup;
 			children = (
+				0F97134F1DDDCF5400964E1E /* data.json */,
 				0F97131D1DDDBC4000964E1E /* AppDelegate.swift */,
 				0F97131F1DDDBC4000964E1E /* FirstViewController.swift */,
 				0F9713211DDDBC4000964E1E /* SecondViewController.swift */,
 				0F9713231DDDBC4000964E1E /* Main.storyboard */,
 				0F9713261DDDBC4000964E1E /* Assets.xcassets */,
+				0F97134D1DDDC57E00964E1E /* bg.png */,
 				0F9713281DDDBC4000964E1E /* LaunchScreen.storyboard */,
 				0F97132B1DDDBC4000964E1E /* Info.plist */,
 			);
@@ -237,6 +243,8 @@
 			files = (
 				0F97132A1DDDBC4000964E1E /* LaunchScreen.storyboard in Resources */,
 				0F9713271DDDBC4000964E1E /* Assets.xcassets in Resources */,
+				0F97134E1DDDC57E00964E1E /* bg.png in Resources */,
+				0F9713501DDDCF5400964E1E /* data.json in Resources */,
 				0F9713251DDDBC4000964E1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
